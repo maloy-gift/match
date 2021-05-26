@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.witysu.RegistrationFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_registration">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_secondActivity"
+            app:destination="@id/secondActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/secondActivity"
+        android:name="com.example.witysu.SecondActivity"
+        android:label="SecondActivity" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.witysu.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_secondActivity"
+            app:destination="@id/secondActivity" />
+        <action
+            android:id="@+id/action_loginFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/dialogueFragment"
+        android:name="com.example.witysu.ui.dialogue.DialogueFragment"
+        android:label="fragment_dialogue"
+        tools:layout="@layout/fragment_dialogue" >
+        <action
+            android:id="@+id/action_dialogueFragment_to_blankActivity"
+            app:destination="@id/blankActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/blankActivity"
+        android:name="com.example.witysu.BlankActivity"
+        android:label="activity_blank"
+        tools:layout="@layout/activity_blank" />
+</navigation>
