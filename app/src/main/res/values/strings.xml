@@ -2,7 +2,7 @@
     <string name="app_name">Witysu</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="registration_fragment_label">Registration Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="submit">Подтвердить</string>
     <string name="previous">Previous</string>
@@ -20,8 +20,8 @@
     <string name="login_reg">Логин</string>
     <string name="birthday">День Рождения</string>
     <string name="phone_number">Номер Телефона</string>
-    <string name="lastname">Фамилия</string>
-    <string name="username">Имя</string>
+    <string name="lastname">Харченко</string>
+    <string name="username">Даня Харченко</string>
     <string name="prompt_password">Пароль</string>
     <string name="action_sign_in">Регистрация</string>
     <string name="action_sign_in_short">Войти</string>
@@ -121,4 +121,25 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="text_last_name">Харченко</string>
+    <string name="text_firstName">Даня</string>
+    <string name="text_languages">Язык: Русский, Английский</string>
+    <string name="height_acc">Рост: 180 см</string>
+    <string name="smoke_acc">Отношение к курению: курю</string>
+    <string name="alco_acc">Отношение к алкоголю: редко выпиваю</string>
+    <string name="settings_child">Отношение к детям: положительное</string>
+    <string name="settings_pets">Отношение к домашним животным: положительное</string>
+    <string name="edit_btn">Изменить</string>
+    <string name="about_acc1">О партнере: хоть какой-нибудь.</string>
+
+    <string name="about_acc">О себе: Родился и вырос на окраине культурной столицы, живу в полной семье всем доволен увлекаюсь волейболом.</string>
+    <string name="username1">Валерия Жмуренко</string>
+    <string name="alco_acc1">Отношение к алкоголю: отрицательное</string>
+    <string name="userheight">Рост: 160 см</string>
+    <string name="child_acc">Отношение к детям: отрицательное</string>
+    <string name="pets_acc">Отношение к питомцам: положительное</string>
+    <string name="smoke_acc1">Отношение к курению: не курю</string>
+    <string name="about_acc2">О себе: Доброго времени суток. Девушка писала пост по поводу кисты. Сегодня третий день как я лично от этого всего избавилась. По порядку опишу для тех кто сомневается, боится, готовится к удалению. Сначала был гинеколог, узи на котором врач сказала - таблетками ничего не вылечить - ложитесь на операцию. Взяла отпуск. За неделю до операции началась беготня по сборам анализов. В разных больницах разный список. В связи с обстановкой выбрала платную операцию, но анализы можно делать в любом месте. Большинство анализов делают 3-4 дня. День операции. Все оплачено, переодеваюсь в медицинскую рубашку, бахилы, шапочку. Наркоз был шикарный - отключилась почти за минуту после укола. Проснулась уже после всего на солнышке у окошка в реанимации. После пробуждения отвезли в палату. Операция была в 12, кормили овсяночкой на воде часов в 6. После операции сказали можно ходить. Мой первый заход был не очень успешен - в голове помутнело. Почти сутки во мне была трубка выходила из живота. Поставили три капельницы, делали уколы с антибиотиками, перевязки. 30 числа в 12 была операция, 2 числа в 10 утра я уже была отправлена домой. Сейчас дома чувствуется некоторая слабость, но в целом чувствую себя комфортно. Если возникли вопросы - пишите. Всем благ и будьте здоровы.</string>
+    <string name="about_acc3">О партнере: Несколько месяцев назад стала накатывать жуткая усталость, прям до состояния "лежунемогувстать". При наличии двух детей возраста год и три на это закрывались глаза, со вздохом - это пройдет, они скоро подрастут, мне станет легче, я буду больше спать и т.д))</string>
+    <string name="lang">Язык: Русский</string>
 </resources>

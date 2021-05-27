@@ -29,7 +29,7 @@ class SecondActivity : AppCompatActivity()   {
                 R.id.navigation_home, R.id.navigation_dialogue, R.id.navigation_search, R.id.navigation_likes
             )
         )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+
         navView.setupWithNavController(navController)
     }
 }

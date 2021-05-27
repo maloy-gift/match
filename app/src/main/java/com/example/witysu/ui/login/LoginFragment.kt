@@ -50,6 +50,7 @@ class LoginFragment : Fragment() {
         val loginButton = binding.login
         val loadingProgressBar = binding.loading
 
+
         loginViewModel.loginFormState.observe(viewLifecycleOwner,
             Observer { loginFormState ->
                 if (loginFormState == null) {
@@ -111,6 +112,10 @@ class LoginFragment : Fragment() {
                 passwordEditText.text.toString()
             )
             findNavController().navigate(R.id.action_loginFragment_to_secondActivity)
+        }
+
+        binding.registrationButton.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_registrationFragment)
         }
     }
 

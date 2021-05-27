@@ -3,17 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/secondActivity">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/RegistrationFragment"
         android:name="com.example.witysu.RegistrationFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/registration_fragment_label"
         tools:layout="@layout/fragment_registration">
-
         <action
-            android:id="@+id/action_FirstFragment_to_secondActivity"
-            app:destination="@id/secondActivity" />
+            android:id="@+id/action_registrationFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <activity
         android:id="@+id/secondActivity"
@@ -28,8 +27,8 @@
             android:id="@+id/action_loginFragment_to_secondActivity"
             app:destination="@id/secondActivity" />
         <action
-            android:id="@+id/action_loginFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/RegistrationFragment" />
 
     </fragment>
     <fragment
