@@ -1,13 +1,9 @@
 package com.example.witysu
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
-import androidx.appcompat.widget.Toolbar
-import androidx.recyclerview.widget.RecyclerView
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.ListAdapter
 import com.example.witysu.databinding.ActivityBlankBinding
 import com.example.witysu.models.CModel
@@ -25,19 +21,23 @@ class BlankActivity : AppCompatActivity() {
         setContentView(mBinding.root)
 
 
-//        listView = findViewById<ListView>(R.id.chat_view)
-//// 1
-//        val recipeList = CModel("1","Danya","1","qqqqqq")
-//// 2
-//        val listItems = arrayOfNulls<String>(recipeList.4)
-//// 3
-//        for (i in 0 until recipeList.4) {
-//            val recipe = recipeList[4]
-//            listItems[4] = recipe.title
-//        }
-//// 4
-//        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listItems)
-//        listView.adapter = adapter
-//
+        listView = findViewById<ListView>(R.id.chat_view)
+// 1
+        val message = arrayOf<String?>("Привет","а","1","У вас симпатия")
+// 2
+        val name = arrayOf<String?>("Света", "Вера", "Вика")
+
+        val photo = arrayOf<String?>("12", "23", "34", "45")
+// 3
+
+
+// 4
+        val adapter = ArrayAdapter(this, android.R.layout.item,name)
+        listView.adapter = adapter
+
+
+
      }
-}
+
+
+    }

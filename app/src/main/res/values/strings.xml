@@ -21,7 +21,7 @@
     <string name="birthday">День Рождения</string>
     <string name="phone_number">Номер Телефона</string>
     <string name="lastname">Харченко</string>
-    <string name="username">Даня Харченко</string>
+    <string name="username">Даня</string>
     <string name="prompt_password">Пароль</string>
     <string name="action_sign_in">Регистрация</string>
     <string name="action_sign_in_short">Войти</string>
@@ -133,7 +133,7 @@
     <string name="about_acc1">О партнере: хоть какой-нибудь.</string>
 
     <string name="about_acc">О себе: Родился и вырос на окраине культурной столицы, живу в полной семье всем доволен увлекаюсь волейболом.</string>
-    <string name="username1">Валерия Жмуренко</string>
+    <string name="username1">Валерия </string>
     <string name="alco_acc1">Отношение к алкоголю: отрицательное</string>
     <string name="userheight">Рост: 160 см</string>
     <string name="child_acc">Отношение к детям: отрицательное</string>
